@@ -31,6 +31,6 @@ C3LX makes every effort to assure all 3rd party organizations are compliant and 
 8. C3LX maintains and annually reviews a list all current Partners and Subcontractors.
 9. C3LX assesses security requirements and compliance considerations with all Partners and Subcontracts.
     - C3LX leverages recurring calendar invites to assure reviews of SLAs with all 3rd parties are performed annually. These are performed by the C3LX Security Officer and Privacy Officer. Google Forms are used to track such reviews.
-11. Regular review is conducted as required by SLAs to assure security and compliance. These reviews include reports, audit trails, security events, operational issues, failures and disruptions, and identified issues are investigated and resolved in a reasonable and timely manner.
+11. Regular review is conducted as required by SLAs to assure security and compliance. These reviews include reports, audit trails, security events, operational issues, failures and disruptions, and identified issues are investigated and resolved in a reasonable and timely manner. 
 12. Any changes to Partner and Subcontractor services and systems are reviewed before implementation.
 13. For all partners, C3LX reviews activity annually to assure partners are in line with SLAs in contracts with C3LX.
