@@ -23,7 +23,7 @@ The Privacy Officer is responsible for assisting with compliance and security tr
 3. Manage relationships with customers and partners as those relationships affect security and compliance of ePHI.
 4. Assist Security Officer as needed.
 
-The current C3LX Privacy Officer is Zach Johnson (zachjohnson@c3lx.com).
+The current C3LX Privacy Officer is Andrew Richburg (andrewrichburg@c3lx.com).
 
 ## Workforce Training Responsibilities
 
