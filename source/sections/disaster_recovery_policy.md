@@ -47,9 +47,9 @@ C3LX defined two categories of systems from a disaster recovery perspective.
 
 The following order of succession to ensure that decision-making authority for the C3LX Contingency Plan is uninterrupted. The Engineering Lead and Security Officer, are responsible for ensuring the safety of personnel and the execution of procedures documented within this C3LX Contingency Plan. If the Engineering Lead is unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
-* Clayton Shaver, Engineering Lead: 303-810-7475, claytonshaver@c3lx.com
+
 * Andrew Richburg, CEO: 303-870-5693, andrewrichburg@c3lx.com
-* Zach Johnson, Product Lead: 720-471-9114, zachjohnson@c3lx.com
+* Angela Richburg, Lead Health Coach: angelarichburg@c3lx.com
 
 ## Responsibilities
 
