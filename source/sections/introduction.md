@@ -33,4 +33,4 @@ Certain aspects of compliance cannot be inherited. Because of this, VisibleHand 
 
 ## Version Control
 
-Policies were last updated September 13th, 2016.
+Policies were last updated November 21st, 2022.
