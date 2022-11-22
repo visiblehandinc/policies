@@ -8,9 +8,9 @@ As providers of disease-specific, patient-facing health and wellness software, V
 
 ## License
 
-VisibleHand HIPAA policies have been adapted from the Catalyze, Inc. open-source HIPAA policies.
+VisibleHand HIPAA policies have been adapted from the VisibleHand, Inc. open-source HIPAA policies.
 
-The original policies can be found, hosted by Catalyze, [here](https://github.com/VisibleHandInc/policies).
+The original policies can be found, hosted by VisibleHand, [here](https://github.com/VisibleHandInc/policies).
 
 The adapted policies can be found, hosted by VisibleHand, [here](https://github.com/VisibleHand/policies).
 

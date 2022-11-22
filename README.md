@@ -29,5 +29,5 @@ Each policy is included as it's own markdown file.
 * [Approved Tools Policy](source/sections/approved_tools_policy.md)
 * [3rd Party Policy](source/sections/3rd_party_policy.md)
 * [Key Definitions](source/sections/key_definitions.md)
-* [Sample BAA](source/sections/catalyze_hipaa_business_associate_agreement.md)
-* [HIPAA Mappings to VisibleHand Controls](source/sections/hipaa_mapping_to_catalyze_controls.md)
+* [Sample BAA](source/sections/VisibleHand_hipaa_business_associate_agreement.md)
+* [HIPAA Mappings to VisibleHand Controls](source/sections/hipaa_mapping_to_VisibleHand_controls.md)
