@@ -1,6 +1,6 @@
 # Key Definitions
 
-* *Application*: An application hosted by C3LX, either maintained and created by C3LX, or maintained and created by a Customer or Partner.
+* *Application*: An application hosted by VisibleHand, either maintained and created by VisibleHand, or maintained and created by a Customer or Partner.
 
 * *Application Level*: Controls and security associated with an Application.
 
@@ -34,13 +34,13 @@
 
 * *Disclosure*: Disclosure means the release, transfer, provision of, access to, or divulging in any other manner of information outside the entity holding the information.
 
-* *Customers*: Contractually bound users of C3LX Platform.
+* *Customers*: Contractually bound users of VisibleHand Platform.
 
 * *Electronic Protected Health Information (ePHI)*: Any individually identifiable health information protected by HIPAA that is transmitted by, processed in some way, or stored in electronic media.
 
 * *Environment*: The overall technical environment, including all servers, network devices, and applications.
 
-* *Event*: An event is defined as an occurrence that does not constitute a serious adverse effect on C3LX, its operations, or its Customers, though it may be less than optimal. Examples of events include, but are not limited to:
+* *Event*: An event is defined as an occurrence that does not constitute a serious adverse effect on VisibleHand, its operations, or its Customers, though it may be less than optimal. Examples of events include, but are not limited to:
 
     * A hard drive malfunction that requires replacement;
     * Systems become unavailable due to power outage that is non-hostile in nature, with redundancy to assure ongoing availability of data;
@@ -75,11 +75,11 @@
 
 * *Off-Site*: For the purpose of storage of Backup media, off-site is defined as any location separate from the building in which the backup was created. It must be physically separate from the creating site.
 
-* *Organization*: For the purposes of this policy, the term “organization” shall mean C3LX.
+* *Organization*: For the purposes of this policy, the term “organization” shall mean VisibleHand.
 
-* *Partner*: Contractual bound 3rd party vendor with integration with the C3LX Platform. May offer Add-on services.
+* *Partner*: Contractual bound 3rd party vendor with integration with the VisibleHand Platform. May offer Add-on services.
 
-* *Platform*: The overall technical environment of C3LX.
+* *Platform*: The overall technical environment of VisibleHand.
 
 * *Protected Health Information (PHI)*: Individually identifiable health information that is created by or received by the organization, including demographic information, that identifies an individual, or provides a reasonable basis to believe the information can be used to identify an individual, and relates to:
 
@@ -122,7 +122,7 @@
 
     * A system or network breach accomplished by an internal or external entity; this breach can be inadvertent or malicious;
     * Unauthorized disclosure;
-    * Unauthorized change or destruction of ePHI (i.e. delete dictation, data alterations not following C3LX’s procedures);
+    * Unauthorized change or destruction of ePHI (i.e. delete dictation, data alterations not following VisibleHand’s procedures);
     * Denial of service not attributable to identifiable physical, environmental, human or technology causes;
     * Disaster or enacted threat to business continuity;
     * Information Security Incident: A violation or imminent threat of violation of information security policies, acceptable use policies, or standard security practices. Examples of information security incidents may include, but are not limited to, the following:
@@ -159,7 +159,7 @@
     5. Paper, film, or other hard copy media have been shredded or destroyed such that the PHI cannot be read or otherwise cannot be reconstructed. Redaction is specifically excluded as a means of data destruction.
     6. Electronic media have been cleared, purged, or destroyed consistent with NIST Special Publications 800-88, Guidelines for Media Sanitization, such that the PHI cannot be retrieved.
 
-* *Vendors*: Persons from other organizations marketing or selling products or services, or providing services to C3LX.
+* *Vendors*: Persons from other organizations marketing or selling products or services, or providing services to VisibleHand.
 
 * *Vulnerability*: A weakness or flaw in an information system that can be accidentally triggered or intentionally exploited by a threat and lead to a compromise in the integrity of that system, i.e., resulting in a security breach or violation of policy.
 

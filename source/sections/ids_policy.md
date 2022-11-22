@@ -1,6 +1,6 @@
 # IDS Policy
 
-In order to preserve the integrity of data that C3LX stores, processes, or transmits for Customers, C3LX implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. C3LX currently utilizes Threatstack to track file system integrity, monitor log data, and detect rootkit access.
+In order to preserve the integrity of data that VisibleHand stores, processes, or transmits for Customers, VisibleHand implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. VisibleHand currently utilizes Threatstack to track file system integrity, monitor log data, and detect rootkit access.
 
 ## Applicable Standards from the HITRUST Common Security Framework
 
@@ -18,7 +18,7 @@ In order to preserve the integrity of data that C3LX stores, processes, or trans
 * Threatstack generates alerts to analyze and investigate suspicious activity or suspected violations.
 * Threatstack monitors file system integrity and sends real time alerts when suspicious changes are made to the file system.
 * Automatic monitoring is done to identify patterns that might signify the lack of availability of certain services and systems (DOS attacks).
-* C3LX firewalls monitor all incoming traffic to detect potential denial of service attacks. Suspected attack sources are blocked automatically. Additionally, our hosting provider actively monitors its network to detect denial of services attacks.
+* VisibleHand firewalls monitor all incoming traffic to detect potential denial of service attacks. Suspected attack sources are blocked automatically. Additionally, our hosting provider actively monitors its network to detect denial of services attacks.
 * All new firewall rules and configuration changes are tested before being pushed into production. All firewall and router rules are reviewed every quarter.
-* C3LX utilizes redundant firewall on network perimeters via Aptible.
-* Static IP addresses are used for C3LX servers.
+* VisibleHand utilizes redundant firewall on network perimeters via Aptible.
+* Static IP addresses are used for VisibleHand servers.

@@ -1,6 +1,6 @@
-# C3LX HIPAA Compliance Policies
+# VisibleHand HIPAA Compliance Policies
 
-C3LX policies are [publicly published](www.c3lx.com/policies)
+VisibleHand policies are [publicly published](www.VisibleHand.com/policies)
 
 All policies are licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -30,4 +30,4 @@ Each policy is included as it's own markdown file.
 * [3rd Party Policy](source/sections/3rd_party_policy.md)
 * [Key Definitions](source/sections/key_definitions.md)
 * [Sample BAA](source/sections/catalyze_hipaa_business_associate_agreement.md)
-* [HIPAA Mappings to C3LX Controls](source/sections/hipaa_mapping_to_catalyze_controls.md)
+* [HIPAA Mappings to VisibleHand Controls](source/sections/hipaa_mapping_to_catalyze_controls.md)
