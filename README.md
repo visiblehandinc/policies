@@ -1,6 +1,6 @@
 # VisibleHand HIPAA Compliance Policies
 
-VisibleHand policies are [publicly published](github.com/visiblehandinc/policies)
+VisibleHand policies are [publicly published](http://github.com/visiblehandinc/policies)
 
 All policies are licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
 
