@@ -89,7 +89,7 @@ All workstations at VisibleHand are company owned, and all are laptop Apple prod
 * Users may not misrepresent, obscure, suppress, or replace another user’s identity in transmitted or stored messages.
 * Workstation hard drives will be encrypted using **~~FileVault 2.0~~**.
 * All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
-* All workstations are to have the following messages added to the lock screen and login screen: This computer is owned by VisibleHand, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://VisibleHand.com/policies) and have completed this training (https://VisibleHand.com/training). Please contact us if you have problems with this - matt@VisibleHand.com
+* All workstations are to have the following messages added to the lock screen and login screen: This computer is owned by VisibleHand, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://github.com/visiblehandinc/policies) and have completed this training (https://VisibleHand.com/training). Please contact us if you have problems with this - matt@VisibleHand.com
 
 ## Wireless Access Use
 
