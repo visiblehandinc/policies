@@ -2,7 +2,7 @@
 
 VisibleHand recognizes that media containing ePHI may be reused when appropriate steps are taken to ensure that all stored ePHI has been effectively rendered inaccessible. Destruction/disposal of ePHI shall be carried out in accordance with federal and state law. The schedule for destruction/disposal shall be suspended for ePHI involved in any open investigation, audit, or litigation.
 
-VisibleHand utilizes dedicated hardware from Subcontractors. ePHI is only stored on SSD volumes in our hosted environment. All SSD volumes utilized by VisibleHand is encrypted. VisibleHand does not use, own, or manage any mobile devices, SD cards, or tapes that have access to ePHI.
+Within the hosted environment, ePHI is only stored on encrypted storage volumes managed by AWS. VisibleHand provisions dedicated mobile devices for use by Customer staff at Customer Facilities; per the VisibleHand Business Associate Agreement, such hardware is transferred to and owned by the Customer, and the Customer is responsible for physical safeguards of that hardware after transfer. These devices access ePHI only through the VisibleHand application over encrypted connections, and device connectivity is monitored by VisibleHand. RTLS beacons and gateways do not store ePHI. VisibleHand does not use SD cards or tapes that have access to ePHI.
 
 ## Applicable Standards from the HITRUST Common Security Framework
 

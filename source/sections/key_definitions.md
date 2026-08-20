@@ -14,7 +14,7 @@
 
 * *Backup*: The process of making an electronic copy of data stored in a computer system. This can either be complete, meaning all data and programs, or incremental, including just the data that changed from the previous backup.
 
-* *Backup Service*: A logging service for unifying system and application logs, encrypting them, and providing a dashboard for them.
+* *Backup Service*: A service for creating and managing retrievable copies of data, such as automated database snapshots and object storage versioning, used to restore data in the case of loss or corruption.
 
 * *Breach*: Means the acquisition, access, use, or disclosure of protected health information (PHI) in a manner not permitted under the Privacy Rule which compromises the security or privacy of the PHI. For purpose of this definition, “compromises the security or privacy of the PHI” means poses a significant risk of financial, reputational, or other harm to the individual. A use or disclosure of PHI that does not include the identifiers listed at §164.514(e)(2), limited data set, date of birth, and zip code does not compromise the security or privacy of the PHI. Breach excludes:
 
@@ -58,8 +58,8 @@
     * The antivirus software alerts when it detects that a host is infected with a worm;
     * Users complain of slow access to hosts on the Internet;
     * The system administrator sees a filename with unusual characteristics;
-    * Automated alerts of activity from log monitors like Threatstack;
-    * An alert from Threatstack about file system integrity issues.
+    * Automated alerts of activity from log and threat monitors like Amazon GuardDuty;
+    * An alert from monitoring tooling about system integrity issues.
 
 * *Intrusion Detection System (IDS)*: A software tool use to automatically detect and notify in the event of possible unauthorized network and/or system access.
 
@@ -69,7 +69,7 @@
 
 * *Logging Service*: A logging service for unifying system and application logs, encrypting them, and providing a dashboard for them.
 
-* *Messaging*: API-based services to deliver and receive SMS messages.
+* *Messaging*: Services used to deliver notifications and messages, including in-application messaging and SMS delivery via API-based services.
 
 * *Minimum Necessary Information*: Protected health information that is the minimum necessary to accomplish the intended purpose of the use, disclosure, or request. The “minimum necessary” standard applies to all protected health information in any form.
 
@@ -94,8 +94,6 @@
 * *Trigger Event*: Activities that may be indicative of a security breach that require further investigation (See Appendix).
 
 * *Restricted Area*: Those areas of the building(s) where protected health information and/or sensitive organizational information is stored, utilized, or accessible at any time.
-
-* *Role*: The category or class of person or persons doing a type of job, defined by a set of similar or identical responsibilities.
 
 * *Precursor*: A sign that an Incident may occur in the future. Examples of precursors include:
 

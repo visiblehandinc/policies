@@ -25,7 +25,7 @@ Production Systems that create, receive, store, or transmit customer data (herea
 
 ### Prevention of malware on Production Systems
 
-* All Production Systems must have Threatstack running at set to scan system every 2 hours and at reboot to assure not malware is present. Detected malware is evaluated and removed.
+* Production workloads run on managed AWS services with a minimal host footprint, reducing the malware attack surface. Amazon GuardDuty continuously monitors the production environment for malware and malicious activity. Detected threats are evaluated and remediated.
 * All Production Systems are to only be used for VisibleHand business needs.
 
 ### Patch Management
@@ -35,7 +35,7 @@ Production Systems that create, receive, store, or transmit customer data (herea
 
 ### Intrusion Detection and Vulnerability Scanning
 
-* Production Systems are monitors using IDS systems. Suspicious activity is logged and alerts are generated.
+* Production Systems are monitored using IDS systems. Suspicious activity is logged and alerts are generated.
 * Vulnerability scanning of Production Systems must occur on a predetermined, regular basis, no less than annually. Scans are reviewed by Security Officer, with defined steps for risk mitigation, and retained for future reference.
 
 ### Production System Security

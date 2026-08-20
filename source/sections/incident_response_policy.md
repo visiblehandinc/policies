@@ -15,7 +15,6 @@ The incident response process addresses:
 
 * 11.a - Reporting Information Security Events
 * 11.c - Responsibilities and Procedures
-* 11.a - Reporting Information Security Events
 
 ## Applicable Standards from the HIPAA Security Rule
 
@@ -32,8 +31,8 @@ The VisibleHand incident response process follows the process recommended by SAN
     1. Direct report to management, the Security Officer, Privacy Officer, or other;
     2. Email;
     3. Phone call;
-    4. Online incident response form located here; (google form)
-    5. Secure Chat.
+    4. The internal incident response form;
+    5. Secure Chat (Slack).
     6. Anonymously through workforce members desired channels.
     7. The individual receiving the report facilitates completion of an Incident Identification form and notifies the Security Officer (if not already done).
     8. The Security Officer determines if the issue is a Precursor, Event, Indication, or Incident.

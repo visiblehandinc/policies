@@ -1,8 +1,8 @@
 # Data Management Policy
 
-VisibleHand has procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI) stored in conjunction with VisibleHand Apps and Tools. The policy and procedures will assure that complete, accurate, retrievable, and tested backups are available for all systems used by VisibleHand.
+VisibleHand has procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI) stored in conjunction with the VisibleHand Platform. The policy and procedures will assure that complete, accurate, retrievable, and tested backups are available for all systems used by VisibleHand.
 
-Data backup is an important part of the day-to-day operations of VisibleHand. To protect the confidentiality, integrity, and availability of ePHI, both for VisibleHand and VisibleHand Customers, complete backups are done daily to assure that data remains available when it needed and in case of disaster. Aptible manages data backups on behalf of VisibleHand.
+Data backup is an important part of the day-to-day operations of VisibleHand. To protect the confidentiality, integrity, and availability of ePHI, both for VisibleHand and VisibleHand Customers, complete backups are done daily to assure that data remains available when it needed and in case of disaster. VisibleHand utilizes managed AWS services for data storage; automated backup facilities of these services (automated database snapshots, S3 versioning and cross-region replication, and point-in-time recovery) are used to implement this policy.
 
 Violation of this policy and its procedures by workforce members may result in corrective disciplinary action, up to and including termination of employment.
 
@@ -20,7 +20,7 @@ Violation of this policy and its procedures by workforce members may result in c
 
 1. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for VisibleHand Customers.
 2. VisibleHand Ops Team, lead by the Engineering Lead, is designated to be in charge of backups.
-3. Dev Ops Team members are trained and assigned assigned to complete backups and manage the backup media.
+3. Dev Ops Team members are trained and assigned to complete backups and manage the backup media.
 4. Document backups
     * Name of the system
     * Date & time of backup

@@ -29,8 +29,8 @@ VisibleHand makes every effort to assure all 3rd party organizations are complia
 6. Third parties are unable to make changes to any VisibleHand infrastructure without explicit permission from VisibleHand. Additionally, no VisibleHand Customers or Partners have access outside of their own environment, meaning they cannot access, modify, or delete anything related to other 3rd parties.
 7. Whenever outsourced development is utilized by VisibleHand, all changes to production systems will be approved and implemented by VisibleHand workforce members only. All outsourced development requires a formal contract with VisibleHand.
 8. VisibleHand maintains and annually reviews a list all current Partners and Subcontractors.
-9. VisibleHand assesses security requirements and compliance considerations with all Partners and Subcontracts.
-    - VisibleHand leverages recurring calendar invites to assure reviews of SLAs with all 3rd parties are performed annually. These are performed by the VisibleHand Security Officer and Privacy Officer. Google Forms are used to track such reviews.
-11. Regular review is conducted as required by SLAs to assure security and compliance. These reviews include reports, audit trails, security events, operational issues, failures and disruptions, and identified issues are investigated and resolved in a reasonable and timely manner. 
-12. Any changes to Partner and Subcontractor services and systems are reviewed before implementation.
-13. For all partners, VisibleHand reviews activity annually to assure partners are in line with SLAs in contracts with VisibleHand.
+9. VisibleHand assesses security requirements and compliance considerations with all Partners and Subcontractors.
+    - VisibleHand leverages recurring calendar invites to assure reviews of SLAs with all 3rd parties are performed annually. These are performed by the VisibleHand Security Officer and Privacy Officer, and are documented.
+10. Regular review is conducted as required by SLAs to assure security and compliance. These reviews include reports, audit trails, security events, operational issues, failures and disruptions, and identified issues are investigated and resolved in a reasonable and timely manner.
+11. Any changes to Partner and Subcontractor services and systems are reviewed before implementation.
+12. For all partners, VisibleHand reviews activity annually to assure partners are in line with SLAs in contracts with VisibleHand.

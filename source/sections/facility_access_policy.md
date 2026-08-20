@@ -2,7 +2,7 @@
 
 VisibleHand works with Partners to assure restriction of physical access to systems used as part of the VisibleHand Platform. VisibleHand and its Partners control access to the physical buildings/facilities that house these systems/applications, or in which VisibleHand workforce members operate, in accordance to the HIPAA Security Rule 164.310 and its implementation specifications. Physical Access to all of VisibleHand facilities is limited to only those authorized in this policy. In an effort to safeguard ePHi from unauthorized access, tampering, and theft, access is allowed to areas only to those persons authorized to be in them and with escorts for unauthorized persons. All workforce members are responsible for reporting an incident of unauthorized visitor and/or unauthorized access to VisibleHand’s facility.
 
-Of note, VisibleHand does not have ready access to ePHI. VisibleHand does not physically house any systems used by its Platform in VisibleHand facilities. Physical security of our Platform servers is managed by our Partner, Aptible.
+Of note, VisibleHand does not physically house any Platform servers in VisibleHand facilities. All Platform servers are hosted in Amazon Web Services (AWS) data centers; physical security of these facilities is managed by AWS and is documented in AWS's SOC and ISO audit reports. RTLS gateways and beacons installed at Customer Facilities do not store ePHI; physical access to Customer Facilities is controlled by the Customer.
 
 ## Applicable Standards from the HITRUST Common Security Framework
 

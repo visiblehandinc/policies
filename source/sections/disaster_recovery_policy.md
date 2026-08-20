@@ -1,6 +1,6 @@
 # Disaster Recovery Policy
 
-The VisibleHand Contingency Plan establishes procedures to recover VisibleHand following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the VisibleHand Security Officer and Privacy Officer. Aptible automates many of the processes outlined on behalf of VisibleHand.
+The VisibleHand Contingency Plan establishes procedures to recover VisibleHand following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the VisibleHand Security Officer and Privacy Officer. AWS managed services and VisibleHand's infrastructure-as-code automation (AWS CDK / CloudFormation) automate many of the processes outlined below.
 
 The following objectives have been established for this plan:
 
@@ -48,7 +48,9 @@ VisibleHand defined two categories of systems from a disaster recovery perspecti
 The following order of succession to ensure that decision-making authority for the VisibleHand Contingency Plan is uninterrupted. The Engineering Lead and Security Officer, are responsible for ensuring the safety of personnel and the execution of procedures documented within this VisibleHand Contingency Plan. If the Engineering Lead is unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
 
-* Matt Morris, CEO: 720-500-5369, matt@VisibleHand.com
+* Ian Schreuder, CTO: ian@visiblehand.io
+* Gary Haith, COO: gary@visiblehand.io
+* Matt Morris, CEO: 720-500-5369, matt@visiblehand.io
 
 ## Responsibilities
 
@@ -110,7 +112,7 @@ The tasks outlines below are not sequential and some can be run in parallel.
 
 * Contact Partners and Customers affected - Web Services
 * Assess damage to the environment - Web Services
-* Begin replication of new environment using automated and tested scrips, currently **~~Salt~~**. At this point it is determined whether to recover in Rackspace, AWS, Azure, or SoftLayer. - Dev Ops
+* Begin replication of new environment using automated and tested infrastructure-as-code (AWS CDK / CloudFormation). At this point it is determined whether to recover in the primary AWS region or an alternate AWS region. - Dev Ops
 * Test new environment using pre-written tests - Web Services
 * Test logging, security, and alerting functionality - Dev Ops
 * Assure systems are appropriately patched and up to date. - Dev Ops
@@ -123,7 +125,7 @@ This section discusses activities necessary for restoring VisibleHand operations
 
 1. Original or New Site Restoration
 
-    * Begin replication of new environment using automated and tested scrips, currently Salt. - Dev Ops
+    * Begin replication of new environment using automated and tested infrastructure-as-code (AWS CDK / CloudFormation). - Dev Ops
     * Test new environment using pre-written tests. - Web Services
     * Test logging, security, and alerting functionality. - Dev Ops
     * Deploy environment to production - Web Services

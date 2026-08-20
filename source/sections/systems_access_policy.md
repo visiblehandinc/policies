@@ -34,8 +34,8 @@ Access to VisibleHand systems and application is limited for all users, includin
 * Requests for access to VisibleHand Platform systems and applications is made formally to the Lead Developer, Privacy Officer, or Security Officer.
 * Access is not granted until receipt, review, and approval by the VisibleHand Security Officer;
 * The request for access is retained for future reference.
-* All access to VisibleHand systems and services are reviewed and updated on an annual basis to assure proper authorizations are in place commensurate with job functions. The form used to conduct account review is here. (Google Form)
-* Any VisibleHand workforce member can request change of access using this form. (Google Form)
+* All access to VisibleHand systems and services are reviewed and updated on an annual basis to assure proper authorizations are in place commensurate with job functions. Account reviews are documented by the Security Officer.
+* Any VisibleHand workforce member can request change of access by contacting the Security Officer.
 * Access to systems is controlled using centralized user management and authentication. All authentication requests utilize two factor authentication using mobile devices as the second factor.
 * Temporary accounts are not used unless absolutely necessary for business purposes.
     * Accounts are reviewed every 90 days to assure temporary accounts are not left unnecessarily.
@@ -44,8 +44,7 @@ Access to VisibleHand systems and application is limited for all users, includin
 * Privileged users must first access systems using standard, unique user accounts before switching to privileged users and performing privileged tasks.
 * All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
 * Generic accounts are not allowed on VisibleHand systems.
-* Access is granted through encrypted, VPN tunnels.
-    * VPN utilizes AES 256 bit encryption.
+* Administrative access to production systems is granted only through encrypted channels (TLS and SSH), authenticated via AWS IAM with multi-factor authentication.
 * In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
 * Direct system to system, system to application, and application to application authentication and authorization are limited and controlled to restrict access.
 
@@ -81,15 +80,15 @@ Access to VisibleHand systems and application is limited for all users, includin
 
 ## Employee Workstation Use
 
-All workstations at VisibleHand are company owned, and all are laptop Apple products running Mac operating system.
+All workstations used to access production systems at VisibleHand are company owned laptops running either macOS or Windows.
 
 * Workstations may not be used to engage in any activity that is illegal or is in violation of organization’s policies.
 * Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization’s best interests. Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
 * Solicitation of non-company business, or any use of organization’s information systems/applications for personal gain is prohibited.
 * Users may not misrepresent, obscure, suppress, or replace another user’s identity in transmitted or stored messages.
-* Workstation hard drives will be encrypted using **~~FileVault 2.0~~**.
+* Workstation hard drives will be encrypted using full disk encryption (FileVault on macOS, BitLocker on Windows).
 * All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
-* All workstations are to have the following messages added to the lock screen and login screen: This computer is owned by VisibleHand, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://github.com/visiblehandinc/policies) and have completed this training (https://VisibleHand.com/training). Please contact us if you have problems with this - matt@VisibleHand.com
+* All workstations are to have the following messages added to the lock screen and login screen: This computer is owned by VisibleHand, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://github.com/visiblehandinc/policies) and have completed the required security training. Please contact us if you have problems with this - ian@visiblehand.io
 
 ## Wireless Access Use
 
@@ -120,7 +119,7 @@ VisibleHand does not use paper records for any sensitive information. Use of pap
 * User IDs and passwords are used to control access to VisibleHand systems and may not be disclosed to anyone for any reason.
 * Users may not allow anyone, for any reason, to have access to any information system using another user’s unique user ID and password.
 * On all production systems and application in the VisibleHand environment, password configurations are set to require that passwords are a minimum of 8 character length, 90 day password expiration, account lockout after 5 invalid attempts, password history of last 4 passwords remembered, and account lockout after 15 minutes of inactivity.
-* All system and application passwords are hashed by concatenating the user's password and a random 256-bit salt value, generated on a per-user basis, and then applying SHA-256 to the value to create a password hash using Argon2. The password hash and the salt are then stored in the backend database and are used for password validation on future user authentication attempts.
+* All system and application passwords are hashed using an industry-standard adaptive one-way hashing algorithm with a unique random salt generated on a per-user basis. Password hashes and salts are stored in the backend authentication system and are used for password validation on future user authentication attempts. Passwords are never stored in plain text.
 * Each information system automatically requires users to change passwords at a pre-determined interval as determined by the organization, based on the criticality and sensitivity of the ePHI contained within the network, system, application, and/or database.
 * Passwords are inactivated immediately upon an employee’s termination (refer to the termination procedures in this policy).
 * All default system, application, and Partner passwords are changed before deployment to production.
@@ -132,4 +131,4 @@ VisibleHand does not use paper records for any sensitive information. Use of pap
 
 VisibleHand grants Clients secure system access. This access is only to Client-specific systems, no other systems in the environment. These connections are setup at Client deployment. These connections are secured and encrypted and the only method for Clients to connect to VisibleHand hosted systems.
 
-To support data analysis, VisibleHand does, on a case by case basis, support Clients in exporting deidentified patient data. In these cases VisibleHand supports SCP assuring all data is secured and encrypted in transit.
+To support data analysis, VisibleHand does, on a case by case basis, support Clients in exporting data, including de-identified data sets. In these cases exports are delivered over secure, encrypted channels (HTTPS/TLS) assuring all data is secured and encrypted in transit.

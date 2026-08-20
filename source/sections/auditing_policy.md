@@ -12,7 +12,7 @@ It is the policy of VisibleHand to safeguard the confidentiality, integrity, and
 * Improper alteration or destruction of ePHI;
 * Out of date software and/or software known to have vulnerabilities.
 
-This policy applies to all VisibleHand Platform systems, including BaaS, that store, transmit, or process ePHI.
+This policy applies to all VisibleHand Platform systems that store, transmit, or process ePHI.
 
 ## Applicable Standards from the HITRUST Common Security Framework
 
@@ -27,12 +27,12 @@ This policy applies to all VisibleHand Platform systems, including BaaS, that st
 
 ## Applicable Standards from the HIPAA Security Rule
 
-* 45 CFR ¬ß 164.308(a)(1)(ii)(D) - Information System Activity Review
-* 45 CFR ¬ß 164.308(a)(5)(ii)(B) & (C) - Protection from Malicious Software & Log-in Monitoring
-* 45 CFR ¬ß 164.308(a)(2) - HIPAA Security Rule Periodic Evaluation
-* 45 CFR ¬ß 164.312(b) - Audit Controls
-* 45 CFR ¬ß 164.312(c)(2) - Mechanism to Authenticate ePHI
-* 45 CFR ¬ß 164.312(e)(2)(i) - Integrity Controls
+* 45 CFR § 164.308(a)(1)(ii)(D) - Information System Activity Review
+* 45 CFR § 164.308(a)(5)(ii)(B) & (C) - Protection from Malicious Software & Log-in Monitoring
+* 45 CFR § 164.308(a)(2) - HIPAA Security Rule Periodic Evaluation
+* 45 CFR § 164.312(b) - Audit Controls
+* 45 CFR § 164.312(c)(2) - Mechanism to Authenticate ePHI
+* 45 CFR § 164.312(e)(2)(i) - Integrity Controls
 
 # Auditing Policies
 
@@ -44,15 +44,15 @@ This policy applies to all VisibleHand Platform systems, including BaaS, that st
 2. VisibleHand’s auditing processes shall address access and activity at the following levels listed below. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
     * User: User level audit trails generally monitor and log all commands directly initiated by the user, all identification and authentication attempts, and data and services accessed.
     * Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
-    * System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. VisibleHand utilizes file system monitoring from Threat Stack, Inc. (“Threat Stack”) to assure the integrity of file system data.
+    * System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. VisibleHand utilizes Amazon GuardDuty and AWS CloudWatch monitoring to assure the integrity of system activity data.
     * Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
 3. VisibleHand shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to VisibleHand.
-4. VisibleHand utilizes Threat Stack to scan all systems for malicious and unauthorized software continuously. Alerts from Threat Stack are sent to Papertrail, the centralized logging service that we use.
-5. VisibleHand leverages process monitoring tools throughout its environment.
-6. VisibleHand treats its Developer Portal as a Platform Add-on and, as such, it logs all activity associated with Developer Portal Access.
-7. VisibleHand uses Threat Stack to monitor the integrity of log files by utilizing Threat Stack System Integrity Checking capabilities.
-8. VisibleHand shall identify “trigger events” or criteria that raise awareness of questionable conditions of viewing of confidential information. The “events” may be applied to the entire VisibleHand Platform or may be specific to Apps, Tools, a Customer, partner, or business associate (See Listing of Potential Trigger Events below).
-9. In addition to trigger events, VisibleHand utilizes Threat Stack's log correlation functionality to proactively identify and enable alerts based on log data.
+4. VisibleHand utilizes Amazon GuardDuty to continuously monitor all systems for malicious and unauthorized activity. GuardDuty findings and system logs are centralized in AWS CloudWatch, the centralized logging service that we use.
+5. VisibleHand leverages process monitoring and alerting tools (AWS CloudWatch alarms and automated error monitoring) throughout its environment.
+6. VisibleHand logs all activity associated with access to its administrative portal.
+7. Log files are stored in AWS CloudWatch Logs and Amazon S3, where access is restricted and modification of stored log data is prevented by access controls.
+8. VisibleHand shall identify “trigger events” or criteria that raise awareness of questionable conditions of viewing of confidential information. The “events” may be applied to the entire VisibleHand Platform or may be specific to a Customer, partner, or business associate (See Listing of Potential Trigger Events below).
+9. In addition to trigger events, VisibleHand utilizes log-based metric filters and alarms to proactively identify and enable alerts based on log data.
 10. Logs are reviewed monthly by the Security Officer.
 11. VisibleHand’s Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
     * Scanning tools and devices;
@@ -87,7 +87,7 @@ This policy applies to all VisibleHand Platform systems, including BaaS, that st
     * Routine findings shall be reported to the sponsoring leadership structure in a written report format.
 3. Reports of audit results shall be limited to internal use on a minimum necessary/need-to-know basis. Audit results shall not be disclosed externally without administrative and/or legal counsel approval.
 4. Security audits constitute an internal, confidential monitoring practice that may be included in VisibleHand’s performance improvement activities and reporting. Care shall be taken to ensure that the results of the audits are disclosed to administrative level oversight structures only and that information which may further expose organizational risk is shared with extreme caution. Generic security audit information may be included in organizational reports (individually-identifiable ePHI shall not be included in the reports).
-5.4 Whenever indicated through evaluation and reporting, appropriate corrective actions must be undertaken. These actions shall be documented and shared with the responsible workforce members, Customers, and/or Partners.
+5. Whenever indicated through evaluation and reporting, appropriate corrective actions must be undertaken. These actions shall be documented and shared with the responsible workforce members, Customers, and/or Partners.
 
 ## Auditing Customer and Partner Activity
 
@@ -97,9 +97,9 @@ This policy applies to all VisibleHand Platform systems, including BaaS, that st
 
 ## Audit Log Security Controls and Backup
 
-4. Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.
-5. All audit logs are encrypted in transit and at rest to control access to the content of the logs.
-6. Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges. This is done to apply the security principle of “separation of duties” to protect audit trails from hackers.
+1. Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.
+2. All audit logs are encrypted in transit and at rest to control access to the content of the logs.
+3. Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges. This is done to apply the security principle of “separation of duties” to protect audit trails from hackers.
 
 ## Workforce Training, Education, Awareness and Responsibilities
 
@@ -122,7 +122,7 @@ This policy applies to all VisibleHand Platform systems, including BaaS, that st
 A. Organizational history and experience.
 B. Available storage space.
 2. Reports summarizing audit activities shall be retained for a period of six years.
-3. Log data is currently retained and readily accessible for a 1-month period via Papertrail, Inc (“Papertrail”). Beyond that, log data is available via cold backup via Amazon Glacier.
+3. Log data is retained and readily accessible via AWS CloudWatch Logs. Beyond the active retention window, log data is archived to Amazon S3 (including Glacier storage classes) for cold storage.
 
 ## Potential Trigger Events
 

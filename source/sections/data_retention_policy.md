@@ -9,7 +9,6 @@ Despite not being a requirement within HIPAA, VisibleHand understands and apprec
 ## Data Retention Policy
 
 * Current VisibleHand Customers have data stored by VisibleHand as a part of the VisibleHand Platform.
-* Once a Customer ceases to be a Customer, as defined below, the following steps are
-    1. Customer is sent a notice via email of change of standing, and given the option to reinstate account.
-    2. If no response to notice in #1 above within 7 days, or if Customer responds they do not want to reinstate account, Customer is sent directions for how to download their data from VisibleHand and/or to have VisibleHand continue to store the data at a rate of $1/month for up to 1GB. If there is more than 1GB of data, VisibleHand will work with Customer to determine storage costs.
-    3. If Customer downloads data or does not respond to notices from VisibleHand within 30 days, VisibleHand removes data from VisibleHand systems and Customer is sent notice of removal of data.
+* Once a Customer ceases to be a Customer, the following steps are taken, consistent with the VisibleHand Subscription Agreement and Business Associate Agreement:
+    1. Management users retain access to the system to run reports and export data for up to thirty (30) days after the expiration of the Subscription Term. Upon written request submitted within that thirty (30) day window, VisibleHand will provide a full data export in CSV format at no charge.
+    2. Following the export window, upon customer request, VisibleHand returns or destroys PHI in its possession in accordance with the VisibleHand Business Associate Agreement, and the Customer is sent notice of removal of data.

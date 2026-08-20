@@ -23,7 +23,7 @@ The Privacy Officer is responsible for assisting with compliance and security tr
 3. Manage relationships with customers and partners as those relationships affect security and compliance of ePHI.
 4. Assist Security Officer as needed.
 
-The current VisibleHand Privacy Officer is Matt Morris (matt@VisibleHand.com).
+The current VisibleHand Privacy Officer is Matt Morris (matt@visiblehand.io).
 
 ## Workforce Training Responsibilities
 
@@ -53,7 +53,7 @@ The current VisibleHand Privacy Officer is Matt Morris (matt@VisibleHand.com).
     13. Users are required to understand their role in VisibleHand’s contingency plan;
     14. Users may not share their user names nor passwords with anyone;
     15. Requirements for users to create and change passwords;
-    16. Users must set all applications that contain or transmit ePHI to automatically log off after “X” minutes of inactivity;
+    16. Users must set all applications that contain or transmit ePHI to automatically log off after 10 minutes of inactivity;
     17. Supervisors are required to report terminations of workforce members and other outside users;
     18. Supervisors are required to report a change in a users title, role, department, and/or location;
     19. Procedures to backup ePHI;
@@ -66,7 +66,7 @@ The current VisibleHand Privacy Officer is Matt Morris (matt@VisibleHand.com).
 
 The Security Officer is responsible for facilitating the training and supervision of all workforce members [164.308(a)(3)(ii)(A) and 164.308(a)(5)(ii)(A)], investigation and sanctioning of any workforce member that is in violation of VisibleHand security policies and non-compliance with the security regulations [164.308(a)(1)(ii)(c)], and writing, implementing, and maintaining all polices, procedures, and documentation related to efforts toward security and compliance [164.316(a-b)].
 
-The current VisibleHand Security Officer is Matt Morris (matt@VisibleHand.com).
+The current VisibleHand Security Officer is Ian Schreuder, CTO (ian@visiblehand.io).
 
 ## Organizational Responsibilities
 
