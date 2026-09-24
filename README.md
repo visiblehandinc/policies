@@ -4,6 +4,8 @@ VisibleHand policies are [publicly published](http://github.com/visiblehandinc/p
 
 All policies are licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
 
+Policies were last updated September 24th, 2026.
+
 ### Policy Index
 
 Each policy is included as it's own markdown file.
