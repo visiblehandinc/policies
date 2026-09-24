@@ -6,11 +6,15 @@ VisibleHand provides secure and compliant cloud-based software for skilled nursi
 
 As a provider of software that documents the care of residents in skilled nursing and senior care facilities, VisibleHand strives to maintain compliance, proactively address information security, mitigate risk for its Customers, and assure known breaches are completely and effectively communicated in a timely manner. The following documents address core policies used by VisibleHand to maintain compliance and assure the proper protections of infrastructure used to store, process, and transmit ePHI for VisibleHand Customers.
 
+Alongside those information security and privacy policies, this repository also contains the workplace policies that govern how VisibleHand treats and protects its own workforce. These currently include the Sexual Harassment Prevention Policy, adopted to meet New York Labor Law §201-g, and the Gender-Based Violence and the Workplace Policy, adopted to meet New York State Finance Law §139-M. They apply to every VisibleHand workforce member, whether or not that person has access to ePHI, and VisibleHand relies on them when certifying compliance in state and Customer procurements. They are maintained, reviewed, and published on the same schedule and through the same process as every other policy here.
+
 ## License
 
 VisibleHand HIPAA policies have been adapted from the open-source HIPAA policies originally published by Catalyze, Inc. (later Datica).
 
 The original policies can be found [here](https://github.com/catalyzeio/policies).
+
+The workplace policies in this repository, the Sexual Harassment Prevention Policy and the Gender-Based Violence and the Workplace Policy, were written by VisibleHand and are not derived from the Catalyze policies.
 
 The adapted policies can be found, hosted by VisibleHand, [here](https://github.com/visiblehandinc/policies).
 

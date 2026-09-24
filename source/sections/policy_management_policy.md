@@ -15,6 +15,8 @@ VisibleHand implements policies and procedures to maintain compliance and integr
 
 1. All policies are stored and up to date to maintain VisibleHand compliance with HIPAA, HITRUST, and other relevant standards. Updates and version control are done similar to source code control using Github.
 2. Policy update requests can be made by any workforce member at any time. Furthermore, all policies are reviewed annually by both the Security and Privacy Officer to assure they are accurate and up-to-date.
+
+    * The workplace policies maintained in this repository, the Sexual Harassment Prevention Policy and the Gender-Based Violence and the Workplace Policy, are reviewed on the same annual cycle by the Policy Administrator named in those policies, and are additionally reviewed whenever the employment laws they implement change.
 3. Edits and updates made by appropriate and authorized workforce members are done on their own versions, or branches. These changes are only merged back into final, or master, versions by the Privacy or Security Officer, similar to a pull request. All changes are linked to workforce personnel who made them and the Officer who accepted them.
 4. All policies are made accessible to all VisibleHand workforce members. The current master policies are published here. (https://github.com/visiblehandinc/policies)
 
