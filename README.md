@@ -26,6 +26,8 @@ Each policy is included as it's own markdown file.
 * [Data Integrity Policy](source/sections/data_integrity_policy.md)
 * [Data Retention Policy](source/sections/data_retention_policy.md)
 * [Employees Policy](source/sections/employees_policy.md)
+* [Sexual Harassment Prevention Policy](source/sections/sexual_harassment_prevention_policy.md)
+* [Gender-Based Violence and the Workplace Policy](source/sections/gender_based_violence_policy.md)
 * [Approved Tools Policy](source/sections/approved_tools_policy.md)
 * [3rd Party Policy](source/sections/3rd_party_policy.md)
 * [Key Definitions](source/sections/key_definitions.md)
